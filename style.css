@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    background: black;
+    text-align: center; 
+    grid-template-columns: 4fr 1fr 3fr 1fr;
+    grid-template-rows: 50vh 40vh 10vh; 
+    grid-template-areas: "a b c d"
+                         "e f g h"
+                          "i j k l"; 
+                          .um {
+    border: solid 2px #fff;
+    background: blue;
+    grid-area: a;
+}
+.dois {
+    border: solid 2px #fff;
+    background: green;
+    grid-area: b;
+}
+.tres {
+    border: solid 2px #fff;
+    background: yellow;
+    grid-area: c;
+}
+.quatro {
+    border: solid 2px #fff;
+    background: red;
+    grid-area: d;
+}
+.cinco {
+    border: solid 2px #fff;
+    background: gray;
+    grid-area: e;
+}
+.seis {
+    border: solid 2px #fff;
+    background: pink;
+    grid-area: f;
+}
+}
+.um {
+    border: solid 2px #fff;
+    background: blue;
+    grid-area: f;
+   
+    }
+.dois {
+    border: solid 2px #fff;
+    background: green;
+    grid-area: b;
+}
+.tres {
+    border: solid 2px #fff;
+    background: yellow;
+    grid-area: c;
+}
+.quatro {
+    border: solid 2px #fff;
+    background: red;
+    grid-area: d;
+}
+.cinco {
+    border: solid 2px #fff;
+    background: gray;
+    grid-area: e;
+}
+.seis {
+    border: solid 2px #fff;
+    background: pink;
+    grid-area: a;
+}
